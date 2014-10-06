@@ -1,0 +1,24 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=5031
+
+best lua indent plugin. source: https://github.com/dantezhu/lua_indent
+modify from https://gist.github.com/bonsaiviking/8845871
+
+fix some bugs, like:
+
+" create(
+"     get(
+"         1,
+"         2
+"         ),
+"     val(),
+"     )
+"
+" to
+"
+" create(
+"     get(
+"         1,
+"         2
+"     ),
+"     val(),
+" )
